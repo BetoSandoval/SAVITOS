@@ -30,6 +30,7 @@ header nav .enlaces {
   width: 30%;
   justify-content: space-around;
   align-items: center;
+  margin-right: 80px;
 }
 header nav .enlaces a {
   color: #022C6B;
@@ -69,7 +70,7 @@ header .textos h2 {
   letter-spacing: 2px;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 950px) {
   header {
     height: 500px;
   }
@@ -92,6 +93,7 @@ header .textos h2 {
     flex-direction: column;
     transition: all 1s ease;
     background: #ffffff;
+    margin-right: 0;
   }
   header nav .uno {
     clip-path: circle(0% at 100% 0%);
@@ -101,6 +103,9 @@ header .textos h2 {
   }
   header .textos {
     text-align: center;
+    display: inline;
+    position: relative;
+    top: 100px;
   }
   header .textos h1 {
     font-size: 30px;
@@ -111,6 +116,9 @@ header .textos h2 {
   }
 }
 @media screen and (max-width: 400px) {
+  header {
+    height: 400px;
+  }
   header nav .logo {
     margin-left: 20px;
   }

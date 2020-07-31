@@ -161,10 +161,11 @@ body .contenedor .slider-contenedor .contenido-slider img {
 }
 body .contenedor .slider-contenedor .contenido-slider div {
   width: 40%;
+  position: relative;
 }
 body .contenedor .slider-contenedor .contenido-slider div h3 {
   font-weight: 300;
-  text-align: justify;
+  text-align: center;
   line-height: 30px;
   color: #022C6B;
 }
@@ -178,6 +179,8 @@ body .contenedor .slider-contenedor .contenido-slider div a {
   border-radius: 6px;
   margin-top: 20px;
   text-decoration: none;
+  position: absolute;
+  left: 32%;
 }
 
 /*# sourceMappingURL=estilos.css.map */

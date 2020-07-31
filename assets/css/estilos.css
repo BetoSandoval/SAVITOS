@@ -72,10 +72,10 @@ header .textos h2 {
 }
 
 @media screen and (max-width: 950px) {
-  header {
+  body header {
     height: 500px;
   }
-  header nav .icono {
+  body header nav .icono {
     display: flex;
     justify-content: center;
     height: 70px;
@@ -86,7 +86,7 @@ header .textos h2 {
     cursor: pointer;
     margin-right: 40px;
   }
-  header nav .enlaces {
+  body header nav .enlaces {
     width: 100%;
     position: fixed;
     height: 100vh;
@@ -96,45 +96,71 @@ header .textos h2 {
     background: #ffffff;
     margin-right: 0;
   }
-  header nav .uno {
+  body header nav .uno {
     clip-path: circle(0% at 100% 0%);
   }
-  header nav .dos {
+  body header nav .dos {
     clip-path: circle(150% at 100% 0%);
   }
-  header .textos {
+  body header .textos {
     text-align: center;
     display: inline;
     position: relative;
     top: 100px;
   }
-  header .textos h1 {
+  body header .textos h1 {
     font-size: 30px;
   }
-  header .textos h2 {
+  body header .textos h2 {
     padding: 10px;
+    font-size: 20px;
+  }
+  body .contenedor {
+    height: 710px;
+  }
+  body .contenedor .slider-contenedor .contenido-slider {
+    height: 700px;
+  }
+  body .contenedor .slider-contenedor .contenido-slider img {
+    width: 250px;
+  }
+  body .contenedor .slider-contenedor .contenido-slider div {
+    width: 40%;
+  }
+  body .contenedor .slider-contenedor .contenido-slider div h3 {
     font-size: 20px;
   }
 }
-@media screen and (max-width: 400px) {
-  header {
+@media screen and (max-width: 650px) {
+  body header {
     height: 400px;
   }
-  header nav .logo {
+  body header nav .logo {
     margin-left: 20px;
   }
-  header nav .icono {
+  body header nav .icono {
     margin-right: 20px;
   }
-  header .textos {
+  body header .textos {
     text-align: center;
   }
-  header .textos h1 {
+  body header .textos h1 {
     font-size: 20px;
   }
-  header .textos h2 {
+  body header .textos h2 {
     padding: 10px;
     font-size: 12px;
+  }
+  body .contenedor .slider-contenedor .contenido-slider {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  body .contenedor .slider-contenedor .contenido-slider div {
+    position: relative;
+    width: 80%;
+  }
+  body .contenedor .slider-contenedor .contenido-slider div h3 {
+    font-size: 16px;
   }
 }
 body .contenedor {

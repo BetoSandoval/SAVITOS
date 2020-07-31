@@ -6,6 +6,7 @@
 
 body {
   font-family: "Playfair Display", serif;
+  background: #f2f2f2f2;
 }
 
 header {
@@ -135,6 +136,48 @@ header .textos h2 {
     padding: 10px;
     font-size: 12px;
   }
+}
+body .contenedor {
+  width: 100%;
+  overflow: hidden;
+}
+body .contenedor .slider-contenedor {
+  width: 100%;
+  display: flex;
+}
+body .contenedor .slider-contenedor .contenido-slider {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-shrink: 0;
+}
+body .contenedor .slider-contenedor .contenido-slider:nth-child(2) {
+  background: #d4caf6ab;
+}
+body .contenedor .slider-contenedor .contenido-slider img {
+  width: 400px;
+}
+body .contenedor .slider-contenedor .contenido-slider div {
+  width: 40%;
+}
+body .contenedor .slider-contenedor .contenido-slider div h3 {
+  font-weight: 300;
+  text-align: justify;
+  line-height: 30px;
+  color: #022C6B;
+}
+body .contenedor .slider-contenedor .contenido-slider div a {
+  color: #ffffff;
+  background: #022C6B;
+  width: 200px;
+  display: block;
+  padding: 15px 0px;
+  text-align: center;
+  border-radius: 6px;
+  margin-top: 20px;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=estilos.css.map */

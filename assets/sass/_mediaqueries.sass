@@ -37,12 +37,12 @@
                     padding: 10px
                     font-size: 20px
         .contenedor
-            height: 710px
+            height: 600px
             .slider-contenedor
                 .contenido-slider
                     height: 700px
                     img
-                        width: 250px
+                        max-width: 250px
                     div
                         width: 40%
                         h3 
@@ -51,7 +51,7 @@
 @media screen and ( max-width: 650px )
     body 
         header
-            height: 400px
+            height: 450px
             nav
                 .logo
                     margin-left: 20px
@@ -60,20 +60,28 @@
             .textos
                 text-align: center
                 h1
-                    font-size: 20px
+                    font-size: 25px
                 h2
                     padding: 10px
                     font-size: 12px
         .contenedor
+            height: 600px
             .slider-contenedor
                 .contenido-slider
                     flex-direction: column
-                    justify-content: space-between
+                    align-items: center
+                    flex-shrink: 1 
+                    img 
+                        max-width: 210px
                     div
-                        position: relative
                         width: 80%
                         h3 
-                            font-size: 16px
+                            min-width: 150px
+                            font-size: 13px
+                            text-align: center
                         a
+                            font-size: 13px
+                            max-width: 150px
+                            
 
 

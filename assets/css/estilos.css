@@ -116,13 +116,13 @@ header .textos h2 {
     font-size: 20px;
   }
   body .contenedor {
-    height: 710px;
+    height: 600px;
   }
   body .contenedor .slider-contenedor .contenido-slider {
     height: 700px;
   }
   body .contenedor .slider-contenedor .contenido-slider img {
-    width: 250px;
+    max-width: 250px;
   }
   body .contenedor .slider-contenedor .contenido-slider div {
     width: 40%;
@@ -133,7 +133,7 @@ header .textos h2 {
 }
 @media screen and (max-width: 650px) {
   body header {
-    height: 400px;
+    height: 450px;
   }
   body header nav .logo {
     margin-left: 20px;
@@ -145,22 +145,34 @@ header .textos h2 {
     text-align: center;
   }
   body header .textos h1 {
-    font-size: 20px;
+    font-size: 25px;
   }
   body header .textos h2 {
     padding: 10px;
     font-size: 12px;
   }
+  body .contenedor {
+    height: 600px;
+  }
   body .contenedor .slider-contenedor .contenido-slider {
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 1;
+  }
+  body .contenedor .slider-contenedor .contenido-slider img {
+    max-width: 210px;
   }
   body .contenedor .slider-contenedor .contenido-slider div {
-    position: relative;
     width: 80%;
   }
   body .contenedor .slider-contenedor .contenido-slider div h3 {
-    font-size: 16px;
+    min-width: 150px;
+    font-size: 13px;
+    text-align: center;
+  }
+  body .contenedor .slider-contenedor .contenido-slider div a {
+    font-size: 13px;
+    max-width: 150px;
   }
 }
 body .contenedor {
@@ -180,18 +192,16 @@ body .contenedor .slider-contenedor .contenido-slider {
   flex-shrink: 0;
 }
 body .contenedor .slider-contenedor .contenido-slider:nth-child(2) {
-  background: #d4caf6ab;
+  background: #efeff9;
 }
 body .contenedor .slider-contenedor .contenido-slider img {
   width: 400px;
 }
 body .contenedor .slider-contenedor .contenido-slider div {
   width: 40%;
-  position: relative;
 }
 body .contenedor .slider-contenedor .contenido-slider div h3 {
   font-weight: 300;
-  text-align: center;
   line-height: 30px;
   color: #022C6B;
 }
@@ -205,8 +215,6 @@ body .contenedor .slider-contenedor .contenido-slider div a {
   border-radius: 6px;
   margin-top: 20px;
   text-decoration: none;
-  position: absolute;
-  left: 32%;
 }
 
 /*# sourceMappingURL=estilos.css.map */

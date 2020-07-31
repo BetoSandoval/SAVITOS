@@ -39,6 +39,6 @@ function slides(){
             slider.style.transform = 'translate(0px)';
             slider.style.transition = 'transform 0s';
             cuenta=1;
-        }, 7000);
+        }, 2800);
     }
 };

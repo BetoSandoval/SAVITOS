@@ -19,7 +19,7 @@ let slider = document.querySelector('.slider-contenedor');
 let sliderIndividual = document.querySelectorAll('.contenido-slider');
 let cuenta = 1;
 let width = sliderIndividual[0].clientWidth;
-let intervalo = 7000;
+let intervalo = 7800;
 
 window.addEventListener('resize', function(){
     width = sliderIndividual[0].clientWidth;

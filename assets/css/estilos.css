@@ -66,7 +66,7 @@ header .textos h1 {
   margin-bottom: 10px;
 }
 header .textos h2 {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
   letter-spacing: 2px;
 }
@@ -167,11 +167,15 @@ header .textos h2 {
   }
   body .contenedor .slider-contenedor .contenido-slider div h3 {
     min-width: 150px;
-    font-size: 13px;
+    font-size: 25px;
+    text-align: center;
+  }
+  body .contenedor .slider-contenedor .contenido-slider div p {
+    font-size: 12px;
     text-align: center;
   }
   body .contenedor .slider-contenedor .contenido-slider div a {
-    font-size: 13px;
+    font-size: 12px;
     max-width: 150px;
   }
 }
@@ -204,6 +208,8 @@ body .contenedor .slider-contenedor .contenido-slider div h3 {
   font-weight: 300;
   line-height: 30px;
   color: #022C6B;
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 body .contenedor .slider-contenedor .contenido-slider div a {
   color: #ffffff;

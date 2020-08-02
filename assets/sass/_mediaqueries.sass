@@ -43,16 +43,24 @@
             height: 600px
             .slider-contenedor
                 .contenido-slider
-                    height: 700px
+                    height: 600px
                     img
                         max-width: 250px
                     div
                         width: 40%
-                        h3 
+                        h3
                             font-size: 30px
+        .contenedor2
+            height: 600px
+            .about
+                height: 600px
+                div
+                    width: 40%
+                img
+                    max-width: 250px
 
 @media screen and ( max-width: 650px )
-    body 
+    body
         header
             height: 450px
             nav
@@ -68,13 +76,13 @@
                     padding: 10px
                     font-size: 14px
         .contenedor
-            height: 600px
+            height: 450px
             .slider-contenedor
                 .contenido-slider
                     flex-direction: column
                     align-items: center
-                    flex-shrink: 1 
-                    img 
+                    flex-shrink: 1
+                    img
                         max-width: 210px
                     div
                         width: 80%
@@ -82,7 +90,7 @@
                         flex-direction: column
                         align-items: center
                         justify-content: space-between
-                        h3 
+                        h3
                             min-width: 250px
                             font-size: 30px
                             text-align: center
@@ -97,6 +105,19 @@
                             letter-spacing: 2px
                             font-family: Roboto, 'Open Sans', sans-serif, 'Helvetica Neue'
                             text-transform: uppercase
-                            
-
-
+        .contenedor2
+            .about
+                flex-direction: column-reverse
+                div
+                    width: 40%
+                    h3
+                        min-width: 250px
+                        font-size: 30px
+                        text-align: center
+                    p
+                        font-size: 14px
+                        text-align: center
+                        min-width: 250px
+                        font-family: Roboto, 'Open Sans', sans-serif, 'Helvetica Neue'
+                img 
+                    max-width: 210px

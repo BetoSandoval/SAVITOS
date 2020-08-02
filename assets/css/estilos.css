@@ -4,7 +4,10 @@
   box-sizing: border-box;
 }
 
-body {
+html {
+  scroll-behavior: smooth;
+}
+html body {
   font-family: "Playfair Display", serif;
   background: #f2f2f2f2;
 }
@@ -197,6 +200,7 @@ header .textos h2 {
 body .contenedor {
   width: 100%;
   overflow: hidden;
+  height: 700px;
 }
 body .contenedor .slider-contenedor {
   width: 100%;
@@ -211,7 +215,8 @@ body .contenedor .slider-contenedor .contenido-slider {
   flex-shrink: 0;
 }
 body .contenedor .slider-contenedor .contenido-slider:nth-child(2) {
-  background: #efeff9;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  height: 700px;
 }
 body .contenedor .slider-contenedor .contenido-slider img {
   width: 400px;
@@ -224,14 +229,11 @@ body .contenedor .slider-contenedor .contenido-slider div h3 {
   line-height: 30px;
   color: #022C6B;
   font-size: 30px;
-  margin-bottom: 10px;
-}
-body .contenedor .slider-contenedor .contenido-slider div p {
-  font-family: Roboto, "Open Sans", sans-serif, "Helvetica Neue";
+  margin-bottom: 20px;
 }
 body .contenedor .slider-contenedor .contenido-slider div a {
   color: #ffffff;
-  background: #022C6B;
+  background: #3C84DC;
   width: 200px;
   display: block;
   padding: 15px 0px;
@@ -242,6 +244,34 @@ body .contenedor .slider-contenedor .contenido-slider div a {
   font-family: Roboto, "Open Sans", sans-serif, "Helvetica Neue";
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+body .contenedor2 {
+  width: 100%;
+}
+body .contenedor2 .about {
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+body .contenedor2 .about div {
+  width: 40%;
+}
+body .contenedor2 .about div h3 {
+  font-weight: 300;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #022C6B;
+}
+body .contenedor2 .about div p {
+  font: Roboto, "Open Sans", sans-serif, "Helvetica Neue";
+}
+body .contenedor2 .about img {
+  width: 400px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

@@ -125,7 +125,7 @@ header .textos h2 {
     font-size: 20px;
   }
   body .contenedor {
-    height: 600px;
+    height: 500px;
   }
   body .contenedor .slider-contenedor .contenido-slider {
     height: 600px;
@@ -140,7 +140,7 @@ header .textos h2 {
     font-size: 30px;
   }
   body .contenedor2 {
-    height: 600px;
+    height: 500px;
   }
   body .contenedor2 .about {
     height: 600px;
@@ -152,9 +152,9 @@ header .textos h2 {
     max-width: 250px;
   }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 655px) {
   body header {
-    height: 450px;
+    height: 400px;
   }
   body header nav .logo {
     margin-left: 20px;
@@ -173,7 +173,7 @@ header .textos h2 {
     font-size: 14px;
   }
   body .contenedor {
-    height: 450px;
+    height: 400px;
   }
   body .contenedor .slider-contenedor .contenido-slider {
     flex-direction: column;
@@ -184,7 +184,7 @@ header .textos h2 {
     max-width: 210px;
   }
   body .contenedor .slider-contenedor .contenido-slider div {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -208,11 +208,21 @@ header .textos h2 {
     font-family: Roboto, "Open Sans", sans-serif, "Helvetica Neue";
     text-transform: uppercase;
   }
+  body .contenedor2 {
+    height: 400px;
+    width: 414px;
+  }
   body .contenedor2 .about {
-    flex-direction: column-reverse;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   body .contenedor2 .about div {
-    width: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
   }
   body .contenedor2 .about div h3 {
     min-width: 250px;
@@ -247,7 +257,6 @@ body .contenedor .slider-contenedor .contenido-slider {
   flex-shrink: 0;
 }
 body .contenedor .slider-contenedor .contenido-slider:nth-child(2) {
-  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
   height: 700px;
 }
 body .contenedor .slider-contenedor .contenido-slider img {
@@ -262,6 +271,9 @@ body .contenedor .slider-contenedor .contenido-slider div h3 {
   color: #022C6B;
   font-size: 30px;
   margin-bottom: 20px;
+}
+body .contenedor .slider-contenedor .contenido-slider div p {
+  font-family: Roboto, "Open Sans", sans-serif, "Helvetica Neue";
 }
 body .contenedor .slider-contenedor .contenido-slider div a {
   color: #ffffff;
@@ -280,12 +292,13 @@ body .contenedor .slider-contenedor .contenido-slider div a {
 
 body .contenedor2 {
   width: 100%;
+  height: 700px;
 }
 body .contenedor2 .about {
+  height: 700px;
   background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
   width: 100%;
   display: flex;
-  flex-direction: row-reverse;
   justify-content: space-around;
   align-items: center;
 }
@@ -299,8 +312,9 @@ body .contenedor2 .about div h3 {
   margin-bottom: 20px;
   color: #022C6B;
 }
-body .contenedor2 .about div h3 p {
-  font: Roboto, "Open Sans", sans-serif, "Helvetica Neue";
+body .contenedor2 .about div p {
+  text-align: left;
+  font-family: Roboto, "Open Sans", sans-serif, "Helvetica Neue";
 }
 body .contenedor2 .about img {
   width: 400px;

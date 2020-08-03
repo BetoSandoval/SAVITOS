@@ -9,7 +9,7 @@ html {
 }
 html body {
   font-family: "Playfair Display", serif;
-  background: #f2f2f2f2;
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
 }
 
 header {
@@ -313,11 +313,47 @@ body .contenedor2 .about div h3 {
   color: #022C6B;
 }
 body .contenedor2 .about div p {
-  text-align: left;
+  text-align: center;
   font-family: Roboto, "Open Sans", sans-serif, "Helvetica Neue";
 }
 body .contenedor2 .about img {
   width: 400px;
+}
+
+.testimonios {
+  padding: 60px 0;
+  overflow: hidden;
+}
+.testimonios h3 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 300;
+  line-height: 34px;
+  margin-bottom: 40px;
+  color: #022C6B;
+}
+.testimonios .contenedor-test {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.testimonios .contenedor-test .test {
+  margin-bottom: 40px;
+  width: 23%;
+}
+.testimonios .contenedor-test .test .contenido-test {
+  margin: 0px 30px;
+}
+.testimonios .contenedor-test .test .contenido-test img {
+  width: 100%;
+  vertical-align: top;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+.testimonios .contenedor-test .test .contenido-test p {
+  font-family: Roboto, "Open Sans", sans-serif, "Helvetica Neue";
+  text-align: center;
 }
 
 /*# sourceMappingURL=estilos.css.map */

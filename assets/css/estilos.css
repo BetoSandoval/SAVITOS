@@ -21,9 +21,11 @@ header {
 }
 header nav {
   height: 70px;
-  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
   display: flex;
   justify-content: space-between;
+  position: fixed;
 }
 header nav .icono {
   display: none;
@@ -80,6 +82,9 @@ header .textos h2 {
 @media screen and (max-width: 950px) {
   body header {
     height: 500px;
+  }
+  body header nav {
+    z-index: 100;
   }
   body header nav .icono {
     display: flex;

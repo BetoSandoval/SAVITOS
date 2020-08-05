@@ -26,6 +26,8 @@ header nav {
   display: flex;
   justify-content: space-between;
   position: fixed;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  z-index: 100;
 }
 header nav .icono {
   display: none;
@@ -295,6 +297,15 @@ body .contenedor .slider-contenedor .contenido-slider:nth-child(2) {
 }
 body .contenedor .slider-contenedor .contenido-slider img {
   width: 400px;
+  animation: ease-in animat 1s;
+}
+@keyframes animat {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 body .contenedor .slider-contenedor .contenido-slider div {
   width: 40%;
@@ -352,6 +363,15 @@ body .contenedor2 .about div p {
 }
 body .contenedor2 .about img {
   width: 400px;
+  animation: ease-in animat 1s;
+}
+@keyframes animat {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .testimonios {
@@ -371,13 +391,18 @@ body .contenedor2 .about img {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 .testimonios .contenedor-test .test {
   margin-bottom: 40px;
   width: 23%;
 }
 .testimonios .contenedor-test .test .contenido-test {
+  background: #f4f4f4f4;
+  padding: 10px;
   margin: 0px 30px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 .testimonios .contenedor-test .test .contenido-test img {
   width: 100%;

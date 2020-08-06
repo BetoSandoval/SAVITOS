@@ -82,9 +82,9 @@ header .textos h2 {
   letter-spacing: 2px;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1024px) {
   body header {
-    height: 500px;
+    height: 400px;
   }
   body header nav {
     z-index: 100;
@@ -190,6 +190,13 @@ header .textos h2 {
   body header nav .icono {
     margin-right: 20px;
   }
+  body header nav .enlaces div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    letter-spacing: 15px;
+  }
   body header .textos {
     text-align: center;
   }
@@ -274,7 +281,7 @@ header .textos h2 {
     margin: 0 10px;
   }
   body footer p {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   body footer p a {
     font-size: 13px;

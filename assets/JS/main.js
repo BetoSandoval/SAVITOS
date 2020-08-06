@@ -13,6 +13,7 @@ window.addEventListener('scroll', function(){
 // Menu interactivo desplegable
 let boton = document.getElementById('icono');
 let enlaces = document.getElementById('enlaces');
+const hamburger = document.getElementById('hamburger');
 let contador = 0;
 
 boton.addEventListener('click', function(){
@@ -26,6 +27,13 @@ boton.addEventListener('click', function(){
     }
 })
 
+window.addEventListener('click', e=>{
+    if(enlaces.classList.contains('dos') && e.target != boton && e.target != hamburger){
+        enlaces.classList.toggle('dos');
+        enlaces.className = ('enlaces uno');
+        contador=0;
+    }
+})
 // Slider 
 let slider = document.querySelector('.slider-contenedor');
 let sliderIndividual = document.querySelectorAll('.contenido-slider');

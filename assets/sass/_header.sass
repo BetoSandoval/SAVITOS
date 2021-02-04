@@ -1,6 +1,6 @@
 header
     width: 100%
-    height: 600px
+    height: 70vh
     background-size: cover
     background-position: center
     overflow: hidden
@@ -9,34 +9,38 @@ header
         width: 100%
         background: rgba(#ffffff, 0.9 )
         display: flex
+        align-items: center
         justify-content: space-between
         position: fixed
         box-shadow: 0 0 10px 0 rgba(#000000,0.5 )
         z-index: 100
         transition: ease-in-out 0.5s
-        .icono
-            display: none
-        .enlaces
-            display: flex
-            height: 100%
+        .contenedor-carro-menu
             width: 30%
-            justify-content: space-around
+            height: 100%
+            display: flex
             align-items: center
+            justify-content: space-evenly
             margin-right: 80px
-            a
-                color: #022C6B
-                text-decoration: none
-                border-top: 2px solid transparent
-                border-bottom: 2px solid transparent
-                padding: 4px 0
-                transition: 0.7 ease-out
-                &:hover
-                    border-top: 2px solid #022C6B
-                    border-bottom: 2px solid #022C6B
+            .menu-carrito
+                ul
+                    list-style: none
+            .enlaces
+                i
+                    display: none
+                .menu-sesion
+                    a
+                        padding: 10px
+                        background: #022C6B
+                        color: #ffffff
+                        text-decoration: none
+                        font-size: 14px
+                        border-radius: 6px
+                        letter-spacing: 1px
         .logo
             height: 100%
             margin-left: 80px
-            img 
+            img
                 object-fit: cover
                 height: inherit
     .textos
@@ -46,14 +50,13 @@ header
         display: flex
         flex-direction: column
         align-items: center
-        h1 
+        h1
             font-size: 60px
             letter-spacing: 3px
             font-weight: 600
             text-transform: uppercase
             margin-bottom: 10px
-        h2 
+        h2
             font-size: 30px
             font-weight: 600
             letter-spacing: 2px
-.contenedor

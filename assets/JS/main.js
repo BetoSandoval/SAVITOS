@@ -11,7 +11,11 @@ window.addEventListener('scroll', function(){
 });
 
 // Menu interactivo desplegable
-let boton = document.getElementById('icono');
+/* const nav = document.querySelector('#hamburguer');
+nav.addEventListener('click', e => {
+    nav.classList.toggle('open');
+}); */
+/* let boton = document.getElementById('icono');
 let enlaces = document.getElementById('enlaces');
 const hamburger = document.getElementById('hamburger');
 let contador = 0;
@@ -33,7 +37,7 @@ window.addEventListener('click', e=>{
         enlaces.className = ('enlaces uno');
         contador=0;
     }
-})
+}) */
 // Slider 
 let slider = document.querySelector('.slider-contenedor');
 let sliderIndividual = document.querySelectorAll('.contenido-slider');

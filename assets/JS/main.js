@@ -1,3 +1,6 @@
+//Variables
+const logInLogo = document.querySelector('.login-logo'),
+      contenedorMenu = document.querySelector('.contenedor-menu');
 let ubicacionPrincipal = window.pageYOffset;
 
 window.addEventListener('scroll', function(){
@@ -10,7 +13,21 @@ window.addEventListener('scroll', function(){
     ubicacionPrincipal = desplazamientoActual;
 });
 
-// Menu interactivo desplegable
+// login-singup desplegable
+const navSlide = () => {
+    logInLogo.addEventListener('click', () => {
+        contenedorMenu.style.transform === 'translateX(100%)' ? navOut():navIn();
+    });
+}
+navSlide();
+
+const navOut = () => {
+    contenedorMenu.style.transform = 'translateX(0%)';
+}
+
+const navIn = () => {
+    contenedorMenu.style.transform = 'translateX(100%)';
+}
 /* const nav = document.querySelector('#hamburguer');
 nav.addEventListener('click', e => {
     nav.classList.toggle('open');

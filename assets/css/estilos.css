@@ -25,42 +25,52 @@ header nav {
   background: rgba(255, 255, 255, 0.9);
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   position: fixed;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
   z-index: 100;
   transition: ease-in-out 0.5s;
 }
-header nav .contenedor-carro-menu {
-  width: 30%;
+header nav .logo {
+  height: 100%;
+  flex-grow: 3;
+  margin-left: 80px;
+}
+header nav .logo img {
+  object-fit: cover;
+  height: inherit;
+}
+header nav .menu-carrito ul {
+  list-style: none;
+}
+header nav .login-logo {
+  display: none;
+}
+header nav .contenedor-menu {
+  width: 40%;
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  margin-right: 80px;
+  justify-content: space-around;
 }
-header nav .contenedor-carro-menu .menu-carrito ul {
+header nav .contenedor-menu .enlaces {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+}
+header nav .contenedor-menu .enlaces li {
   list-style: none;
 }
-header nav .contenedor-carro-menu .enlaces i {
-  display: none;
-}
-header nav .contenedor-carro-menu .enlaces .menu-sesion a {
+header nav .contenedor-menu .enlaces li a {
   padding: 10px;
   background: #022C6B;
   color: #ffffff;
   text-decoration: none;
   font-size: 14px;
   border-radius: 6px;
-  letter-spacing: 1px;
-}
-header nav .logo {
-  height: 100%;
-  margin-left: 80px;
-}
-header nav .logo img {
-  object-fit: cover;
-  height: inherit;
+  letter-spacing: 2px;
+  display: inline-block;
+  font-family: Roboto, "Open Sans", sans-serif, "Helvetica Neue";
 }
 header .textos {
   text-align: center;
@@ -83,30 +93,50 @@ header .textos h2 {
   letter-spacing: 2px;
 }
 
-@media screen and (max-width: 1260px) {
+@media screen and (max-width: 1415px) {
   body header {
     height: 400px;
   }
   body header nav {
     z-index: 100;
+    justify-content: space-between;
   }
-  body header nav .contenedor-carro-menu {
-    width: 10%;
-    margin-right: 30px;
+  body header nav .logo {
+    flex-grow: 0;
+    margin-left: 40px;
   }
-  body header nav .contenedor-carro-menu .enlaces {
-    display: flex;
+  body header nav .login-logo {
+    display: inline-block;
+    font-size: 30px;
+    color: #022C6B;
+    margin-right: 40px;
+    cursor: pointer;
+  }
+  body header nav .contenedor-menu {
+    width: 45%;
+    position: absolute;
+    right: 0px;
+    height: 6.1vh;
+    top: 5vh;
+    background: #ffffff;
+    align-items: flex-start;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+  body header nav .contenedor-menu .enlaces {
+    width: 100%;
     flex-direction: column;
   }
-  body header nav .contenedor-carro-menu .enlaces i {
-    display: inline;
-    font-size: 25px;
-    color: #022C6B;
+  body header nav .contenedor-menu .enlaces li {
+    width: 100%;
+    border-bottom: 2px solid #020202;
   }
-  body header nav .contenedor-carro-menu .enlaces .menu-sesion {
+  body header nav .contenedor-menu .enlaces li a {
+    width: 100%;
     background: #ffffff;
-    color: #022C6B;
-    display: none;
+    color: #020202;
+    font-size: 18px;
+    border-radius: 0px;
   }
   body header .textos {
     text-align: center;
@@ -164,16 +194,41 @@ header .textos h2 {
     text-align: left;
   }
 }
+@media screen and (max-width: 769px) {
+  body header {
+    height: 400px;
+  }
+  body header nav .contenedor-menu {
+    width: 60%;
+    height: 6.1vh;
+    top: 6.8vh;
+    background: #ffffff;
+  }
+}
 @media screen and (max-width: 655px) {
   body header {
     height: 400px;
   }
-  body header nav .logo {
-    margin-left: 20px;
+  body header nav .contenedor-menu {
+    width: 60%;
+    height: 6.1vh;
+    top: 8.6vh;
+    background: #ffffff;
   }
-  body header nav .contenedor-carro-menu {
-    width: 23%;
-    margin-right: 30px;
+  body header nav .contenedor-menu .enlaces {
+    width: 100%;
+    flex-direction: column;
+  }
+  body header nav .contenedor-menu .enlaces li {
+    width: 100%;
+    border-bottom: 2px solid #020202;
+  }
+  body header nav .contenedor-menu .enlaces li a {
+    width: 100%;
+    background: #ffffff;
+    color: #020202;
+    font-size: 18px;
+    border-radius: 0px;
   }
   body header .textos {
     text-align: center;

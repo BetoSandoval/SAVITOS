@@ -40,8 +40,29 @@ header nav .logo img {
   object-fit: cover;
   height: inherit;
 }
+header nav .menu-carrito {
+  cursor: pointer;
+}
 header nav .menu-carrito ul {
   list-style: none;
+}
+header nav .menu-carrito ul .submenu {
+  position: relative;
+  left: 150%;
+}
+header nav .menu-carrito ul .submenu #carrito {
+  display: none;
+}
+header nav .menu-carrito ul .submenu:hover #carrito {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  min-height: 400px;
+  min-width: 300px;
 }
 header nav .login-logo {
   display: none;
@@ -134,9 +155,13 @@ header .textos h2 {
   body header nav .contenedor-menu .enlaces li a {
     width: 100%;
     background: #ffffff;
-    color: #020202;
+    color: #022C6B;
     font-size: 18px;
     border-radius: 0px;
+  }
+  body header nav .contenedor-menu .enlaces li a:hover {
+    background: #022C6B;
+    color: #ffffff;
   }
   body header .textos {
     text-align: center;

@@ -24,8 +24,25 @@ header
                 height: inherit
 
         .menu-carrito
+            cursor: pointer
             ul
                 list-style: none
+                .submenu
+                    position: relative
+                    left: 150%
+                    #carrito
+                        display: none
+                .submenu 
+                    &:hover #carrito
+                        display: block
+                        position: absolute
+                        right: 0
+                        top: 100%
+                        z-index: 1
+                        background-color: white
+                        padding: 20px
+                        min-height: 400px
+                        min-width: 300px
 
         .login-logo
             display: none

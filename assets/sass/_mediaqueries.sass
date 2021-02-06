@@ -40,8 +40,8 @@
                                 font-size: 18px
                                 border-radius: 0px
                                 &:hover
-                                    background: #022C6B     
-                                    color: #ffffff  
+                                    background: #022C6B
+                                    color: #ffffff
 
             .textos
                 text-align: center
@@ -102,6 +102,47 @@
         header
             height: 400px
             nav
+                .menu-carrito
+                    cursor: pointer
+                    ul
+                        list-style: none
+                        .submenu
+                            position: relative
+                            left: 150%
+                            #carrito
+                                display: none
+                        .submenu
+                            &:hover #carrito
+                                display: inline-block
+                                position: absolute
+                                right: -86px
+                                top: 117%
+                                z-index: 1
+                                background-color: white
+                                padding: 10px
+                                min-height: 400px
+                                min-width: 300px
+                                width: 373px
+                        a
+                            width: 100%
+                            box-sizing: border-box
+                            display: inline-block
+                            height: 38px
+                            padding: 0 30px
+                            color: #555
+                            text-align: center
+                            font-size: 11px
+                            font-weight: 600
+                            line-height: 38px
+                            letter-spacing: .1rem
+                            text-transform: uppercase
+                            text-decoration: none
+                            white-space: nowrap
+                            background-color: transparent
+                            border-radius: 4px
+                            border: 1px solid #bbb
+                            cursor: pointer
+
                 .contenedor-menu
                     width: 60%
                     height: 6.1vh

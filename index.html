@@ -21,35 +21,30 @@
 </head>
 
 <body>
-  <header id="sec0">
-    <nav>
-      <div class="logo">
-        <img src="assets/img/logosavitos.png" alt="Savitos logo" />
+  <header class="header-container" id="sec0">
+    <div class="nav">
+      <div class="nav__logo">
+        <img class="nav__logo--img" src="assets/img/logosavitos.png" alt="Savitos logo" />
       </div>
 
-      <div class="menu-carrito">
-        <ul>
-          <li class="submenu">
-            <img src="assets/img/cart.png" id="img-carrito">
-            <!-- <div id="carrito">
-                                      
-                                      <table id="lista-carrito" class="u-full-width">
-                                          <thead>
-                                              <tr>
-                                                  <th>Imagen</th>
-                                                  <th>Nombre</th>
-                                                  <th>Precio</th>
-                                                  <th>Cantidad</th>
-                                                  <th></th>
-                                              </tr>
-                                          </thead>
-                                          <tbody></tbody>
-                                      </table>
-      
-                                      <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
-                              </div> -->
-          </li>
-        </ul>
+      <div class="nav__carrito">
+            <img class="nav__carrito--img" src="assets/img/cart.png" id="img-carrito">
+            <div class="carrito-menu" id="carrito-menu">
+              <table class="carrito-menu__lista" id="lista-carrito">
+                <thead class="lista-contenedor">
+                  <tr class="lista-contenedor__fila">
+                    <th class="lista-contenedor__fila--celda">Imagen</th>
+                    <th class="lista-contenedor__fila--celda">Nombre</th>
+                    <th class="lista-contenedor__fila--celda">Precio</th>
+                    <th class="lista-contenedor__fila--celda">Cantidad</th>
+                    <th class="lista-contenedor__fila--celda"></th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+              <a class="carrito-menu__boton" href="#" id="vaciar-carrito">Vaciar Carrito</a>
+              <a class="carrito-menu__boton" href="#" id="pago">Pagar</a>
+            </div>
       </div>
 
       <div class="login-logo">
@@ -67,7 +62,7 @@
           </li>
         </ul>
       </div>
-    </nav>
+    </div>
 
     <div class="textos">
       <h1>Educación alimentaría online</h1>

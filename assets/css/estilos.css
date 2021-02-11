@@ -12,14 +12,14 @@ html body {
   background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
 }
 
-header {
+.header-container {
   width: 100%;
   height: 70vh;
   background-size: cover;
   background-position: center;
   overflow: hidden;
 }
-header nav {
+.header-container .nav {
   height: 70px;
   width: 100%;
   background: rgba(255, 255, 255, 0.9);
@@ -31,37 +31,88 @@ header nav {
   z-index: 100;
   transition: ease-in-out 0.5s;
 }
-header nav .logo {
+.header-container .nav .nav__logo {
   height: 100%;
   flex-grow: 3;
   margin-left: 80px;
 }
-header nav .logo img {
+.header-container .nav .nav__logo .nav__logo--img {
   object-fit: cover;
   height: inherit;
 }
-header nav .menu-carrito ul {
-  list-style: none;
+.header-container .nav .nav__carrito {
+  position: relative;
+  width: 13.3333333333%;
+  height: 100%;
+  cursor: pointer;
 }
-header nav .login-logo {
+.header-container .nav .nav__carrito .nav__carrito--img {
+  margin-top: 15%;
+}
+.header-container .nav .nav__carrito .carrito-menu {
   display: none;
 }
-header nav .contenedor-menu {
+.header-container .nav .nav__carrito .carrito-menu .carrito-menu__lista {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 2.5rem;
+  border-collapse: collapse;
+}
+.header-container .nav .nav__carrito .carrito-menu .carrito-menu__lista .lista-contenedor .lista-contenedor__fila .lista-contenedor__fila--celda {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #E1E1E1;
+}
+.header-container .nav .nav__carrito .carrito-menu .carrito-menu__boton {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.header-container .nav .nav__carrito:hover .carrito-menu {
+  display: block;
+  position: absolute;
+  righ: 0;
+  top: 100%;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  min-height: 400px;
+  min-width: 300px;
+}
+.header-container .nav .login-logo {
+  display: none;
+}
+.header-container .nav .contenedor-menu {
   width: 40%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-header nav .contenedor-menu .enlaces {
+.header-container .nav .contenedor-menu .enlaces {
   width: 55%;
   display: flex;
   justify-content: space-between;
 }
-header nav .contenedor-menu .enlaces li {
+.header-container .nav .contenedor-menu .enlaces li {
   list-style: none;
 }
-header nav .contenedor-menu .enlaces li a {
+.header-container .nav .contenedor-menu .enlaces li a {
   padding: 10px;
   background: #022C6B;
   color: #ffffff;
@@ -72,7 +123,7 @@ header nav .contenedor-menu .enlaces li a {
   display: inline-block;
   font-family: Roboto, "Open Sans", sans-serif, "Helvetica Neue";
 }
-header .textos {
+.header-container .textos {
   text-align: center;
   color: #ffffff;
   margin-top: 150px;
@@ -80,39 +131,44 @@ header .textos {
   flex-direction: column;
   align-items: center;
 }
-header .textos h1 {
+.header-container .textos h1 {
   font-size: 60px;
   letter-spacing: 3px;
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-header .textos h2 {
+.header-container .textos h2 {
   font-size: 30px;
   font-weight: 600;
   letter-spacing: 2px;
 }
 
 @media screen and (max-width: 1415px) {
-  body header {
+  body .header-container {
     height: 400px;
   }
-  body header nav {
-    z-index: 100;
-    justify-content: space-between;
-  }
-  body header nav .logo {
-    flex-grow: 0;
+  body .header-container .nav .nav__logo {
     margin-left: 40px;
+    flex-grow: 2;
   }
-  body header nav .login-logo {
+  body .header-container .nav .nav__carrito {
+    height: 60%;
+  }
+  body .header-container .nav .nav__carrito .carrito-menu {
+    right: -65px;
+  }
+  body .header-container .nav .nav__carrito .carrito-menu .carrito-menu__lista .lista-contenedor .lista-contenedor__fila .lista-contenedor__fila--celda {
+    padding: 12px 10px;
+  }
+  body .header-container .nav .login-logo {
     display: inline-block;
     font-size: 30px;
     color: #022C6B;
     margin-right: 40px;
     cursor: pointer;
   }
-  body header nav .contenedor-menu {
+  body .header-container .nav .contenedor-menu {
     width: 45%;
     position: absolute;
     right: 0px;
@@ -123,31 +179,31 @@ header .textos h2 {
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
   }
-  body header nav .contenedor-menu .enlaces {
+  body .header-container .nav .contenedor-menu .enlaces {
     width: 100%;
     flex-direction: column;
   }
-  body header nav .contenedor-menu .enlaces li {
+  body .header-container .nav .contenedor-menu .enlaces li {
     width: 100%;
     border-bottom: 2px solid #020202;
   }
-  body header nav .contenedor-menu .enlaces li a {
+  body .header-container .nav .contenedor-menu .enlaces li a {
     width: 100%;
     background: #ffffff;
     color: #020202;
     font-size: 18px;
     border-radius: 0px;
   }
-  body header .textos {
+  body .header-container .textos {
     text-align: center;
     display: inline;
     position: relative;
     top: 100px;
   }
-  body header .textos h1 {
+  body .header-container .textos h1 {
     font-size: 30px;
   }
-  body header .textos h2 {
+  body .header-container .textos h2 {
     padding: 10px;
     font-size: 20px;
   }

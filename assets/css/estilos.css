@@ -40,66 +40,6 @@ html body {
   object-fit: cover;
   height: inherit;
 }
-<<<<<<< HEAD
-header nav .menu-carrito {
-  cursor: pointer;
-}
-header nav .menu-carrito ul {
-  list-style: none;
-}
-header nav .menu-carrito ul .submenu {
-  position: relative;
-  left: 150%;
-}
-header nav .menu-carrito ul .submenu #carrito {
-  display: none;
-}
-header nav .menu-carrito ul .submenu:hover #carrito {
-  display: inline-block;
-  position: absolute;
-  right: 0;
-  top: 100%;
-  z-index: 1;
-  background-color: white;
-  padding: 20px;
-  min-height: 400px;
-  min-width: 300px;
-}
-header nav .menu-carrito ul .submenu:hover #carrito .u-full-width {
-  width: 100%;
-  box-sizing: border-box;
-  margin-bottom: 2.5rem;
-}
-header nav .menu-carrito ul .submenu:hover #carrito .u-full-width thead tr th {
-  padding: 12px 15px;
-  text-align: left;
-  border-bottom: 1px solid #E1E1E1;
-}
-header nav .menu-carrito ul .submenu:hover #carrito .u-full-width thead tr th:first-child {
-  padding-left: 0;
-}
-header nav .menu-carrito ul .submenu:hover #carrito a {
-  width: 100%;
-  box-sizing: border-box;
-  display: inline-block;
-  height: 38px;
-  padding: 0 30px;
-  color: #555;
-  text-align: center;
-  font-size: 11px;
-  font-weight: 600;
-  line-height: 38px;
-  letter-spacing: 0.1rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  white-space: nowrap;
-  background-color: transparent;
-  border-radius: 4px;
-  border: 1px solid #bbb;
-  cursor: pointer;
-}
-header nav .login-logo {
-=======
 .header-container .nav .nav__carrito {
   position: relative;
   width: 13.3333333333%;
@@ -107,10 +47,9 @@ header nav .login-logo {
   cursor: pointer;
 }
 .header-container .nav .nav__carrito .nav__carrito--img {
-  margin-top: 15%;
+  margin-top: 12%;
 }
 .header-container .nav .nav__carrito .carrito-menu {
->>>>>>> desarrollo
   display: none;
 }
 .header-container .nav .nav__carrito .carrito-menu .carrito-menu__lista {
@@ -255,15 +194,11 @@ header nav .login-logo {
     font-size: 18px;
     border-radius: 0px;
   }
-<<<<<<< HEAD
-  body header nav .contenedor-menu .enlaces li a:hover {
+  body .header-container .nav .contenedor-menu .enlaces li a:hover {
     background: #022C6B;
     color: #ffffff;
   }
-  body header .textos {
-=======
   body .header-container .textos {
->>>>>>> desarrollo
     text-align: center;
     display: inline;
     position: relative;

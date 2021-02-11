@@ -1,15 +1,20 @@
 @media screen and ( max-width: 1415px  )
     body
-        header
+        .header-container
             height: 400px
-            nav
-                z-index: 100
-                justify-content: space-between
-
-                .logo
-                    flex-grow: 0
+            .nav
+                .nav__logo
                     margin-left: 40px
-
+                    flex-grow: 2
+                .nav__carrito
+                   height: 60%
+                   .carrito-menu
+                       right: -65px
+                       .carrito-menu__lista
+                           .lista-contenedor
+                               .lista-contenedor__fila
+                                   .lista-contenedor__fila--celda
+                                       padding: 12px 10px
                 .login-logo
                     display: inline-block
                     font-size: 30px

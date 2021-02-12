@@ -42,7 +42,7 @@ html body {
 }
 .header-container .nav .nav__carrito {
   position: relative;
-  width: 12.3333333333%;
+  width: 13.3333333333%;
   height: 100%;
   cursor: pointer;
 }
@@ -86,7 +86,7 @@ html body {
 .header-container .nav .nav__carrito:hover .carrito-menu {
   display: block;
   position: absolute;
-  righ: 0px;
+  righ: 78%;
   top: 100%;
   z-index: 1;
   background: linear-gradient(60deg, #d0e3f1 0%, #d8f1bd 100%);

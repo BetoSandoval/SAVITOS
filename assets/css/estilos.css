@@ -42,7 +42,7 @@ html body {
 }
 .header-container .nav .nav__carrito {
   position: relative;
-  width: 12.3333333333%;
+  width: 10.3333333333%;
   height: 100%;
   cursor: pointer;
 }
@@ -51,6 +51,7 @@ html body {
 }
 .header-container .nav .nav__carrito .carrito-menu {
   display: none;
+  right: 65px;
 }
 .header-container .nav .nav__carrito .carrito-menu .carrito-menu__lista {
   width: 100%;

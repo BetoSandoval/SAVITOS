@@ -151,9 +151,10 @@ html body {
   }
   body .header-container .nav .nav__carrito .nav__carrito--img {
     margin-top: 17%;
+    margin-left: 40%;
   }
   body .header-container .nav .nav__carrito .carrito-menu {
-    right: 65px;
+    right: 185px;
   }
   body .contenedor {
     height: 500px;

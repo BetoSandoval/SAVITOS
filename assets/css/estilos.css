@@ -112,7 +112,7 @@ html body {
 }
 .header-container .nav .nav__menu .nav__menu--profile p {
   margin: 0px;
-  color: #535151;
+  color: #000000;
 }
 .header-container .nav .nav__menu .nav__menu--profile ul {
   display: none;
@@ -127,7 +127,7 @@ html body {
   margin: 11px 0px;
 }
 .header-container .nav .nav__menu .nav__menu--profile ul li a {
-  color: #161515;
+  color: #000000;
   text-decoration: none;
 }
 .header-container .nav .nav__menu .nav__menu--profile ul li a:hover {
@@ -143,6 +143,9 @@ html body {
   }
   body .header-container .nav .nav__logo {
     margin-left: 40px;
+  }
+  body .header-container .nav .nav__carrito .nav__carrito--img {
+    margin-top: 17%;
   }
   body .header-container .nav .nav__carrito .carrito-menu {
     right: 65px;
@@ -200,6 +203,9 @@ html body {
   body .header-container .nav .nav__carrito {
     height: 60%;
   }
+  body .header-container .nav .nav__carrito .nav__carrito--img {
+    margin-top: 3%;
+  }
   body .header-container .nav .nav__carrito .carrito-menu {
     right: -51px;
     margin-top: 15%;
@@ -207,20 +213,28 @@ html body {
   body .header-container .nav .nav__carrito .carrito-menu .carrito-menu__lista .lista-contenedor .lista-contenedor__fila .lista-contenedor__fila--celda {
     padding: 12px 11px;
   }
+  body .header-container .nav .nav__menu .nav__menu--profile ul {
+    margin: 130px 0px 0px 3px;
+  }
 }
-@media screen and (max-width: 376px) {
-  body .header-container {
-    height: 400px;
+@media screen and (max-width: 416px) {
+  body .header-container .nav .nav__logo {
+    margin-left: 20px;
   }
   body .header-container .nav .nav__carrito {
-    height: 60%;
+    height: 48%;
+    right: 8px;
   }
   body .header-container .nav .nav__carrito .carrito-menu {
-    right: -75px;
-    margin-top: 15%;
+    right: -120px;
+    margin-top: 45%;
   }
   body .header-container .nav .nav__carrito .carrito-menu .carrito-menu__lista .lista-contenedor .lista-contenedor__fila .lista-contenedor__fila--celda {
-    padding: 12px 8px;
+    padding: 12px 5px;
+  }
+  body .header-container .nav .nav__menu {
+    margin-right: 20px;
+    margin-top: 6%;
   }
   body .contenedor {
     height: 400px;

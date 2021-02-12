@@ -211,16 +211,20 @@ html body {
   }
   body .header-container .nav .nav__carrito .nav__carrito--img {
     margin-top: 3%;
+    margin-left: 30%;
   }
   body .header-container .nav .nav__carrito .carrito-menu {
-    right: -51px;
-    margin-top: 15%;
+    right: 169px;
+    margin-top: 0%;
   }
   body .header-container .nav .nav__carrito .carrito-menu .carrito-menu__lista .lista-contenedor .lista-contenedor__fila .lista-contenedor__fila--celda {
     padding: 12px 11px;
   }
+  body .header-container .nav .nav__menu {
+    margin-right: 40px;
+  }
   body .header-container .nav .nav__menu .nav__menu--profile ul {
-    margin: 130px 0px 0px 3px;
+    margin: 180px 0px 0px -1px;
   }
 }
 @media screen and (max-width: 416px) {

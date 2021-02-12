@@ -4,28 +4,29 @@
     background-size: cover
     background-position: center
     overflow: hidden
+
     .nav
         height: 70px
         width: 100%
-        background: rgba(#ffffff, 0.9 )
+        background: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%)
         display: flex
         align-items: center
-        justify-content: space-evenly
+        justify-content: space-between
         position: fixed
         box-shadow: 0 0 10px 0 rgba(#000000,0.5 )
         z-index: 100
         transition: ease-in-out 0.5s
         .nav__logo
             height: 100%
-            flex-grow: 3
             margin-left: 80px
+            flex-grow: 2
             .nav__logo--img
                 object-fit: cover
                 height: inherit
 
         .nav__carrito
             position: relative
-            width: 13.3333333333%
+            width: 12.3333333333%
             height: 100%
             cursor: pointer
             .nav__carrito--img
@@ -42,7 +43,7 @@
                             .lista-contenedor__fila--celda
                                 padding: 12px 15px
                                 text-align: left
-                                border-bottom: 1px solid #E1E1E1
+                                border-bottom: 1px solid #413f3f
                 .carrito-menu__boton
                     display: inline-block
                     height: 38px
@@ -58,7 +59,7 @@
                     white-space: nowrap
                     background-color: transparent
                     border-radius: 4px
-                    border: 1px solid #bbb
+                    border: 1px solid #413f3f
                     cursor: pointer
                     width: 100%
                     margin-bottom: 1rem
@@ -66,55 +67,46 @@
             &:hover .carrito-menu
                 display: block
                 position: absolute
-                righ: 0
+                righ: 0px
 
                 top: 100%
                 z-index: 1
-                background-color: white
+                background: linear-gradient(60deg, #d0e3f1 0%, #d8f1bd 100%)
                 padding: 20px
                 min-height: 400px
                 min-width: 300px
 
-        .login-logo
-            display: none
-
-        .contenedor-menu
-            width: 40%
+        .nav__menu
+            margin-right: 80px
             height: 100%
-            display: flex
-            align-items: center
-            justify-content: space-around
-            .enlaces
-                width: 55%
+            margin-top: 2%
+            .nav__menu--profile
+                margin-right: 8px
                 display: flex
-                justify-content: space-between
-                li
+                align-items: center
+                cursor: pointer
+                img
+                    margin-right: 8px
+                    width: 40px
+                p
+                    margin: 0px
+                    color: #535151
+                ul
+                    display: none
                     list-style: none
-                    a
-                        padding: 10px
-                        background: #022C6B
-                        color: #ffffff
-                        text-decoration: none
-                        font-size: 14px
-                        border-radius: 6px
-                        letter-spacing: 2px
-                        display: inline-block
-                        font-family: Roboto, 'Open Sans', sans-serif, 'Helvetica Neue'
-
-    .textos
-        text-align: center
-        color: #ffffff
-        margin-top: 150px
-        display: flex
-        flex-direction: column
-        align-items: center
-        h1
-            font-size: 60px
-            letter-spacing: 3px
-            font-weight: 600
-            text-transform: uppercase
-            margin-bottom: 10px
-        h2
-            font-size: 30px
-            font-weight: 600
-            letter-spacing: 2px
+                    padding: 0px
+                    position: absolute
+                    width: 100px
+                    text-align: right
+                    margin: 130px 0px 0px -14px
+                    li
+                        margin: 11px 0px
+                        a
+                            color: #161515
+                            text-decoration: none
+                        a
+                            &:hover
+                                text-decoration: underline
+        .nav__menu
+            &:hover ul
+                display: block

@@ -235,9 +235,12 @@ html body {
     height: 48%;
     right: 8px;
   }
+  body .header-container .nav .nav__carrito .nav__carrito--img {
+    margin-left: -25%;
+  }
   body .header-container .nav .nav__carrito .carrito-menu {
-    right: -120px;
-    margin-top: 45%;
+    right: 16px;
+    margin-top: 0;
   }
   body .header-container .nav .nav__carrito .carrito-menu .carrito-menu__lista .lista-contenedor .lista-contenedor__fila .lista-contenedor__fila--celda {
     padding: 12px 5px;
@@ -245,6 +248,9 @@ html body {
   body .header-container .nav .nav__menu {
     margin-right: 20px;
     margin-top: 6%;
+  }
+  body .header-container .nav .nav__menu .nav__menu--profile ul {
+    margin: 173px 0px 0px -17px;
   }
   body .contenedor {
     height: 400px;

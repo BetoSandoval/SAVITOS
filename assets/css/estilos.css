@@ -34,23 +34,22 @@ html body {
 .header-container .nav .nav__logo {
   height: 100%;
   margin-left: 80px;
+  width: 65%;
 }
 .header-container .nav .nav__logo .nav__logo--img {
   object-fit: cover;
   height: inherit;
 }
 .header-container .nav .nav__carrito {
-  position: relative;
-  width: 13.3333333333%;
-  height: 100%;
-  cursor: pointer;
+  width: 13.3333%;
 }
 .header-container .nav .nav__carrito .nav__carrito--img {
   margin-top: 12%;
+  margin-left: 36%;
 }
 .header-container .nav .nav__carrito .carrito-menu {
   display: none;
-  right: 65px;
+  right: 110px;
 }
 .header-container .nav .nav__carrito .carrito-menu .carrito-menu__lista {
   width: 100%;
@@ -142,6 +141,8 @@ html body {
   }
   body .header-container .nav .nav__logo {
     margin-left: 40px;
+    flex-grow: 2;
+    width: 85%;
   }
   body .header-container .nav .nav__carrito .nav__carrito--img {
     margin-top: 17%;

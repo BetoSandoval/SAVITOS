@@ -39,12 +39,6 @@ html body {
   object-fit: cover;
   height: inherit;
 }
-.header-container .nav .nav__carrito {
-  position: relative;
-  width: 13.3333333333%;
-  height: 100%;
-  cursor: pointer;
-}
 .header-container .nav .nav__carrito .nav__carrito--img {
   margin-top: 12%;
 }

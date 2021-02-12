@@ -42,14 +42,15 @@ html body {
 }
 .header-container .nav .nav__carrito {
   width: 13.3333%;
+  height: 100%;
 }
 .header-container .nav .nav__carrito .nav__carrito--img {
   margin-top: 12%;
-  margin-left: 36%;
+  margin-left: 60%;
 }
 .header-container .nav .nav__carrito .carrito-menu {
   display: none;
-  right: 110px;
+  right: 17%;
 }
 .header-container .nav .nav__carrito .carrito-menu .carrito-menu__lista {
   width: 100%;
@@ -117,9 +118,13 @@ html body {
   list-style: none;
   padding: 0px;
   position: absolute;
-  width: 100px;
-  text-align: right;
-  margin: 130px 0px 0px -14px;
+  width: 132px;
+  text-align: center;
+  margin: 170px 0px 0px -14px;
+  background: #ffff;
+  border-radius: 5px;
+  height: 98px;
+  padding: 2px;
 }
 .header-container .nav .nav__menu .nav__menu--profile ul li {
   margin: 11px 0px;

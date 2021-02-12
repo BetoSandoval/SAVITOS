@@ -34,6 +34,7 @@ html body {
 .header-container .nav .nav__logo {
   height: 100%;
   margin-left: 80px;
+  width: 65%;
 }
 .header-container .nav .nav__logo .nav__logo--img {
   object-fit: cover;

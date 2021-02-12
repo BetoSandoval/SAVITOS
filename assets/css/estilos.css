@@ -144,7 +144,7 @@ html body {
   letter-spacing: 2px;
 }
 
-@media screen and (max-width: 1415px) {
+@media screen and (max-width: 1370px) {
   body .header-container {
     height: 400px;
   }
@@ -152,14 +152,8 @@ html body {
     margin-left: 40px;
     flex-grow: 2;
   }
-  body .header-container .nav .nav__carrito {
-    height: 60%;
-  }
   body .header-container .nav .nav__carrito .carrito-menu {
-    right: -65px;
-  }
-  body .header-container .nav .nav__carrito .carrito-menu .carrito-menu__lista .lista-contenedor .lista-contenedor__fila .lista-contenedor__fila--celda {
-    padding: 12px 10px;
+    right: 65px;
   }
   body .header-container .nav .login-logo {
     display: inline-block;
@@ -255,93 +249,66 @@ html body {
   }
 }
 @media screen and (max-width: 769px) {
-  body header {
+  body .header-container {
     height: 400px;
   }
-  body header nav .contenedor-menu {
-    width: 60%;
-    height: 6.1vh;
-    top: 6.8vh;
-    background: #ffffff;
+  body .header-container .nav .nav__logo {
+    margin-left: 40px;
+    flex-grow: 2;
+  }
+  body .header-container .nav .nav__carrito {
+    height: 60%;
+  }
+  body .header-container .nav .nav__carrito .carrito-menu {
+    right: -51px;
+    margin-top: 15%;
+  }
+  body .header-container .nav .nav__carrito .carrito-menu .carrito-menu__lista .lista-contenedor .lista-contenedor__fila .lista-contenedor__fila--celda {
+    padding: 12px 11px;
   }
 }
-@media screen and (max-width: 655px) {
-  body header {
+@media screen and (max-width: 376px) {
+  body .header-container {
     height: 400px;
   }
-  body header nav .menu-carrito {
-    cursor: pointer;
+  body .header-container .nav .nav__carrito {
+    height: 60%;
   }
-  body header nav .menu-carrito ul {
-    list-style: none;
+  body .header-container .nav .nav__carrito .carrito-menu {
+    right: -75px;
+    margin-top: 15%;
   }
-  body header nav .menu-carrito ul .submenu {
-    position: relative;
-    left: 150%;
+  body .header-container .nav .nav__carrito .carrito-menu .carrito-menu__lista .lista-contenedor .lista-contenedor__fila .lista-contenedor__fila--celda {
+    padding: 12px 8px;
   }
-  body header nav .menu-carrito ul .submenu #carrito {
-    display: none;
-  }
-  body header nav .menu-carrito ul .submenu:hover #carrito {
-    display: inline-block;
-    position: absolute;
-    right: -86px;
-    top: 117%;
-    z-index: 1;
-    background-color: white;
-    padding: 10px;
-    min-height: 400px;
-    min-width: 300px;
-    width: 373px;
-  }
-  body header nav .menu-carrito ul a {
-    width: 100%;
-    box-sizing: border-box;
-    display: inline-block;
-    height: 38px;
-    padding: 0 30px;
-    color: #555;
-    text-align: center;
-    font-size: 11px;
-    font-weight: 600;
-    line-height: 38px;
-    letter-spacing: 0.1rem;
-    text-transform: uppercase;
-    text-decoration: none;
-    white-space: nowrap;
-    background-color: transparent;
-    border-radius: 4px;
-    border: 1px solid #bbb;
-    cursor: pointer;
-  }
-  body header nav .contenedor-menu {
+  body .header-container .nav .contenedor-menu {
     width: 60%;
     height: 6.1vh;
     top: 8.6vh;
     background: #ffffff;
   }
-  body header nav .contenedor-menu .enlaces {
+  body .header-container .nav .contenedor-menu .enlaces {
     width: 100%;
     flex-direction: column;
   }
-  body header nav .contenedor-menu .enlaces li {
+  body .header-container .nav .contenedor-menu .enlaces li {
     width: 100%;
     border-bottom: 2px solid #020202;
   }
-  body header nav .contenedor-menu .enlaces li a {
+  body .header-container .nav .contenedor-menu .enlaces li a {
     width: 100%;
     background: #ffffff;
     color: #020202;
     font-size: 18px;
     border-radius: 0px;
   }
-  body header .textos {
+  body .header-container .textos {
     text-align: center;
   }
-  body header .textos h1 {
+  body .header-container .textos h1 {
     font-size: 25px;
   }
-  body header .textos h2 {
+  body .header-container .textos h2 {
     padding: 10px;
     font-size: 14px;
   }

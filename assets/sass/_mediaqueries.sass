@@ -6,8 +6,10 @@
                 .nav__logo
                     margin-left: 40px
                 .nav__carrito
-                   .carrito-menu
-                       right: 65px
+                    .nav__carrito--img
+                        margin-top: 17%
+                    .carrito-menu
+                        right: 65px
 
         .contenedor
             height: 500px
@@ -50,31 +52,42 @@
                 .nav__logo
                     margin-left: 40px
                 .nav__carrito
-                   height: 60%
-                   .carrito-menu
-                       right: -51px
-                       margin-top: 15%
-                       .carrito-menu__lista
-                           .lista-contenedor
-                               .lista-contenedor__fila
-                                   .lista-contenedor__fila--celda
-                                       padding: 12px 11px
+                    height: 60%
+                    .nav__carrito--img
+                        margin-top: 3%
+                    .carrito-menu
+                        right: -51px
+                        margin-top: 15%
+                        .carrito-menu__lista
+                            .lista-contenedor
+                                .lista-contenedor__fila
+                                    .lista-contenedor__fila--celda
+                                        padding: 12px 11px
+                .nav__menu
+                    .nav__menu--profile
+                        ul
+                            margin: 130px 0px 0px 3px
 
-@media screen and ( max-width: 376px )
+@media screen and ( max-width: 416px )
     body
         .header-container
-            height: 400px
             .nav
+                .nav__logo
+                    margin-left: 20px
                 .nav__carrito
-                   height: 60%
-                   .carrito-menu
-                       right: -75px
-                       margin-top: 15%
-                       .carrito-menu__lista
-                           .lista-contenedor
-                               .lista-contenedor__fila
-                                   .lista-contenedor__fila--celda
-                                       padding: 12px 8px
+                    height: 48%
+                    right: 8px
+                    .carrito-menu
+                        right: -120px
+                        margin-top: 45%
+                        .carrito-menu__lista
+                            .lista-contenedor
+                                .lista-contenedor__fila
+                                    .lista-contenedor__fila--celda
+                                        padding: 12px 5px
+                .nav__menu
+                    margin-right: 20px
+                    margin-top: 6%
         .contenedor
             height: 400px
             .slider-contenedor

@@ -12,7 +12,7 @@ header{
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
     .nav__menu .nav__menu--profile ul {
-      margin: 80px 0px 0px -17px
+      margin-top: 48px 
     }
 
 }

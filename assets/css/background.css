@@ -6,13 +6,3 @@ header{
     ),
     url(../img/fondo-header.jpg);
 }
-
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-    .nav__menu .nav__menu--profile ul {
-      margin-top: 48px 
-    }
-
-}

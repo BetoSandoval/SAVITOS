@@ -373,7 +373,7 @@ body .encabezados .input::placeholder {
   }
 }
 @media screen and (max-width: 416px) and (max-width: 356px) {
-  body .header-container .nav .nav__menu ul {
+  body .header-container .nav .nav__menu .nav__menu--profile ul {
     margin: 50px 0px 0px -17px;
   }
 }

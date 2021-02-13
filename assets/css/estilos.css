@@ -86,7 +86,7 @@ html body {
 .header-container .nav .nav__carrito:hover .carrito-menu {
   display: block;
   position: absolute;
-  righ: 78%;
+  right: 17%;
   top: 100%;
   z-index: 1;
   background: linear-gradient(60deg, #d0e3f1 0%, #d8f1bd 100%);
@@ -258,7 +258,7 @@ body .encabezados .input::placeholder {
     margin-top: 17%;
   }
 }
-@media screen and (max-width: 416px) {
+@media screen and (max-width: 516px) {
   body .header-container .nav .nav__logo {
     margin-left: 20px;
   }

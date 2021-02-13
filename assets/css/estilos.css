@@ -372,11 +372,6 @@ body .encabezados .input::placeholder {
     font-size: 13px;
   }
 }
-@media screen and (max-width: 416px) and (max-width: 356px) {
-  body .header-container .nav .nav__menu .nav__menu--profile ul {
-    margin: 25px 0px 0px -17px;
-  }
-}
 body .contenedor {
   width: 100%;
   overflow: hidden;

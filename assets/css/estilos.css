@@ -252,7 +252,7 @@ body .encabezados .input::placeholder {
     margin-right: 40px;
   }
   body .header-container .nav .nav__menu .nav__menu--profile ul {
-    margin: 180px 0px 0px -1px;
+    margin: 165px 0px 0px -10px;
   }
   body .header-container .encabezados {
     margin-top: 17%;

@@ -321,6 +321,10 @@ body .encabezados .input::placeholder {
   }
   body footer .social-media {
     padding: 15px 0;
+    height: 100px;
+  }
+  body footer .social-media .contenedor {
+    height: 100px;
   }
   body footer .social-media .contenedor a {
     font-size: 22px;

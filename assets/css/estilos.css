@@ -420,11 +420,11 @@ footer {
 footer .social-media {
   padding: 30px 0;
 }
-footer .social-media .container {
+footer .social-media .contenedor {
   display: flex;
   justify-content: center;
 }
-footer .social-media .container a {
+footer .social-media .contenedor a {
   color: #ffffff;
   text-align: center;
   display: block;

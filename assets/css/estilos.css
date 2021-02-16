@@ -242,7 +242,7 @@ body .encabezados .input::placeholder {
     margin-left: 0%;
   }
   body .header-container .nav .nav__carrito .carrito-menu {
-    right: 169px;
+    right: 17%;
     margin-top: 0%;
   }
   body .header-container .nav .nav__carrito .carrito-menu .carrito-menu__lista .lista-contenedor .lista-contenedor__fila .lista-contenedor__fila--celda {
@@ -269,19 +269,16 @@ body .encabezados .input::placeholder {
   body .header-container .nav .nav__carrito .nav__carrito--img {
     margin-left: -25%;
   }
-  body .header-container .nav .nav__carrito .carrito-menu {
-    right: 16px;
+  body .header-container .nav .nav__carrito #carrito-menu {
+    right: 5%;
     margin-top: 0;
   }
-  body .header-container .nav .nav__carrito .carrito-menu .carrito-menu__lista .lista-contenedor .lista-contenedor__fila .lista-contenedor__fila--celda {
+  body .header-container .nav .nav__carrito #carrito-menu .carrito-menu__lista .lista-contenedor .lista-contenedor__fila .lista-contenedor__fila--celda {
     padding: 12px 5px;
   }
   body .header-container .nav .nav__menu {
     margin-right: 20px;
     margin-top: 6%;
-  }
-  body .header-container .nav .nav__menu .nav__menu--profile ul {
-    margin: 173px 0px 0px -17px;
   }
   body .header-container .encabezados {
     margin-top: 30%;
@@ -291,42 +288,6 @@ body .encabezados .input::placeholder {
   }
   body .header-container .encabezados h2 {
     font-size: 18px;
-  }
-  body .contenedor {
-    height: 400px;
-  }
-  body .contenedor .slider-contenedor .contenido-slider {
-    flex-direction: column;
-    align-items: center;
-    flex-shrink: 1;
-  }
-  body .contenedor .slider-contenedor .contenido-slider img {
-    max-width: 210px;
-  }
-  body .contenedor .slider-contenedor .contenido-slider div {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-  }
-  body .contenedor .slider-contenedor .contenido-slider div h3 {
-    min-width: 250px;
-    font-size: 30px;
-    text-align: center;
-  }
-  body .contenedor .slider-contenedor .contenido-slider div p {
-    font-size: 14px;
-    text-align: center;
-    min-width: 250px;
-    font-family: Roboto, "Open Sans", sans-serif, "Helvetica Neue";
-  }
-  body .contenedor .slider-contenedor .contenido-slider div a {
-    font-size: 14px;
-    min-width: 250px;
-    letter-spacing: 2px;
-    font-family: Roboto, "Open Sans", sans-serif, "Helvetica Neue";
-    text-transform: uppercase;
   }
   body .contenedor2 {
     height: 400px;

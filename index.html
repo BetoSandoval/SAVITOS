@@ -30,34 +30,34 @@
 
       <!-- Carrito de compras -->
       <div class="nav__carrito">
-            <img class="nav__carrito--img" src="assets/img/cart.png" id="img-carrito">
-            <div class="carrito-menu" id="carrito-menu">
-              <table class="carrito-menu__lista" id="lista-carrito">
-                <thead class="lista-contenedor">
-                  <tr class="lista-contenedor__fila">
-                    <th class="lista-contenedor__fila--celda">Imagen</th>
-                    <th class="lista-contenedor__fila--celda">Nombre</th>
-                    <th class="lista-contenedor__fila--celda">Precio</th>
-                    <th class="lista-contenedor__fila--celda">Cantidad</th>
-                    <th class="lista-contenedor__fila--celda"></th>
-                  </tr>
-                </thead>
-                <tbody></tbody>
-              </table>
-              <a class="carrito-menu__boton" href="#" id="vaciar-carrito">Vaciar Carrito</a>
-              <a class="carrito-menu__boton" href="#" id="pago">Pagar</a>
-            </div>
+        <img class="nav__carrito--img" src="assets/img/cart.png" id="img-carrito">
+        <div class="carrito-menu" id="carrito-menu">
+          <table class="carrito-menu__lista" id="lista-carrito">
+            <thead class="lista-contenedor">
+              <tr class="lista-contenedor__fila">
+                <th class="lista-contenedor__fila--celda">Imagen</th>
+                <th class="lista-contenedor__fila--celda">Nombre</th>
+                <th class="lista-contenedor__fila--celda">Precio</th>
+                <th class="lista-contenedor__fila--celda">Cantidad</th>
+                <th class="lista-contenedor__fila--celda"></th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+          <a class="carrito-menu__boton" href="#" id="vaciar-carrito">Vaciar Carrito</a>
+          <a class="carrito-menu__boton" href="#" id="pago">Pagar</a>
+        </div>
       </div>
-      
+
       <!-- Menu -->
       <div class="nav__menu">
         <div class="nav__menu--profile">
-            <img src="./assets/img/user-icon.png" alt="User">
-            <p>Perfil</p>
-            <ul>
-                <li><a href="#">Iniciar Sesión</a></li>
-                <li><a href="#">Crear Cuenta</a></li>
-            </ul>
+          <img src="./assets/img/user-icon.png" alt="User">
+          <p>Perfil</p>
+          <ul>
+            <li><a href="#">Iniciar Sesión</a></li>
+            <li><a href="#">Crear Cuenta</a></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -69,46 +69,190 @@
     </div>
   </header>
 
-  <!-- Cursos y guias -->
-  <section class="contenedor" id="sec1">
-    <div class="slider-contenedor">
-      <section class="contenido-slider">
-        <div>
-          <h3>Curso SÁVITOS</h3>
-          <p>
-            Con el curso de SÁVITOS aprenderas a adaptar una alimentación
-            saludable a tu estilo de vida.
-          </p>
-          <a href="#" rel="nofollow">Inscribete al curso</a>
+  <!-- Main -->
+  <main id="lista-cursos" class="container">
+      <h3 id="encabezado" class="h3">Cursos En Línea</h3>
+      <div class="row">
+        <div class="four columns">
+          <div class="card">
+            <img src="./assets/img/curso2.jpg" class="imagen-curso u-full-width">
+            <div class="info-card">
+              <h4>Alimentación para principiantes</h4>
+              <p>Leslie Sandoval</p>
+              <img src="./assets/img/estrellas.png">
+              <p class="precio">$200 <span class="u-pull-right ">$15</span></p>
+              <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar Al
+                Carrito</a>
+            </div>
+          </div>
+          <!--.card-->
         </div>
-        <img src="assets/img/slider1.svg" alt="Dietas onlie" />
-      </section>
+        <div class="four columns">
+          <div class="card">
+            <img src="./assets/img/curso2.jpg" class="imagen-curso u-full-width">
+            <div class="info-card">
+              <h4>Curso de Comida Vegetariana</h4>
+              <p>Juan Pedro</p>
+              <img src="./assets/img/estrellas.png">
+              <p class="precio">$200 <span class="u-pull-right ">$15</span></p>
+              <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar Al
+                Carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="four columns">
+          <div class="card">
+            <img src="./assets/img/curso2.jpg" class="imagen-curso u-full-width">
+            <div class="info-card">
+              <h4>Dieta Cetogenica</h4>
+              <p>Juan Pedro</p>
+              <img src="./assets/img/estrellas.png">
+              <p class="precio">$200 <span class="u-pull-right ">$15</span></p>
+              <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar Al
+                Carrito</a>
+            </div>
+          </div>
+          <!--.card-->
+        </div>
 
-      <section class="contenido-slider">
-        <div>
-          <h3>Crea tu dieta sin esfuerzo</h3>
-          <p>
-            Adquiere el Ebook "Crea tu dieta sin esfuerzo" el cual te guiará
-            para que combines tus alimentos de manera equlibrada.
-          </p>
-          <a href="#" rel="nofollow">Adquirir Ebook</a>
+      </div>
+      <!--.row-->
+      <div class="row">
+        <div class="four columns">
+          <div class="card">
+            <img src="./assets/img/curso4.jpg" class="imagen-curso u-full-width">
+            <div class="info-card">
+              <h4>Huerto en tu casa</h4>
+              <p>Leslie Sandoval</p>
+              <img src="./assets/img/estrellas.png">
+              <p class="precio">$200 <span class="u-pull-right ">$15</span></p>
+              <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar Al
+                Carrito</a>
+            </div>
+          </div>
+          <!--.card-->
         </div>
-        <img src="assets/img/slider2.svg" alt="Ebook SAVITOS" />
-      </section>
-
-      <section class="contenido-slider">
-        <div>
-          <h3>Curso SÁVITOS</h3>
-          <p>
-            Con el curso de SÁVITOS aprenderas a adaptar una alimentación
-            saludable a tu estilo de vida.
-          </p>
-          <a href="#" rel="nofollow">Inscribete al curso</a>
+        <div class="four columns">
+          <div class="card">
+            <img src="./assets/img/curso2.jpg" class="imagen-curso u-full-width">
+            <div class="info-card">
+              <h4>Dieta deportistas</h4>
+              <p>Juan Pedro</p>
+              <img src="./assets/img/estrellas.png">
+              <p class="precio">$200 <span class="u-pull-right ">$15</span></p>
+              <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar Al
+                Carrito</a>
+            </div>
+          </div>
+          <!--.card-->
         </div>
-        <img src="assets/img/slider1.svg" alt="Dietas onlie" />
-      </section>
-    </div>
-  </section>
+        <div class="four columns">
+          <div class="card">
+            <img src="./assets/img/curso2.jpg" class="imagen-curso u-full-width">
+            <div class="info-card">
+              <h4>Como ganar masa muscular principiantes</h4>
+              <p>Leslie Sandoval</p>
+              <img src="./assets/img/estrellas.png">
+              <p class="precio">$200 <span class="u-pull-right ">$15</span></p>
+              <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar Al
+                Carrito</a>
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+      </div>
+      <!--.row-->
+      <div class="row">
+        <div class="four columns">
+          <div class="card">
+            <img src="./assets/img/curso2.jpg" class="imagen-curso u-full-width">
+            <div class="info-card">
+              <h4>Comida Mexicana para principiantes</h4>
+              <p>Juan Pedro</p>
+              <img src="./assets/img/estrellas.png">
+              <p class="precio">$200 <span class="u-pull-right ">$15</span></p>
+              <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar Al
+                Carrito</a>
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+        <div class="four columns">
+          <div class="card">
+            <img src="./assets/img/curso2.jpg" class="imagen-curso u-full-width">
+            <div class="info-card">
+              <h4>Aprendiento nutrirntes escenciales</h4>
+              <p>Juan Pedro</p>
+              <img src="./assets/img/estrellas.png">
+              <p class="precio">$200 <span class="u-pull-right ">$15</span></p>
+              <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar Al
+                Carrito</a>
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+        <div class="four columns">
+          <div class="card">
+            <img src="./assets/img/curso2.jpg" class="imagen-curso u-full-width">
+            <div class="info-card">
+              <h4>Cosecha tus propias frutas y verduras</h4>
+              <p>Juan Pedro</p>
+              <img src="./assets/img/estrellas.png">
+              <p class="precio">$200 <span class="u-pull-right ">$15</span></p>
+              <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar Al
+                Carrito</a>
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+      </div>
+      <!--.row-->
+      <div class="row">
+        <div class="four columns">
+          <div class="card">
+            <img src="./assets/img/curso2.jpg" class="imagen-curso u-full-width">
+            <div class="info-card">
+              <h4>Prepara galletas caseras nutritivas</h4>
+              <p>Juan Pedro</p>
+              <img src="./assets/img/estrellas.png">
+              <p class="precio">$200 <span class="u-pull-right ">$15</span></p>
+              <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="10">Agregar Al
+                Carrito</a>
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+        <div class="four columns">
+          <div class="card">
+            <img src="./assets/img/curso2.jpg" class="imagen-curso u-full-width">
+            <div class="info-card">
+              <h4>Alimentacion para niños</h4>
+              <p>Juan Pedro</p>
+              <img src="./assets/img/estrellas.png">
+              <p class="precio">$200 <span class="u-pull-right ">$15</span></p>
+              <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="11">Agregar Al
+                Carrito</a>
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+        <div class="four columns">
+          <div class="card">
+            <img src="./assets/img/curso2.jpg" class="imagen-curso u-full-width">
+            <div class="info-card">
+              <h4>100 Recetas de Comida Natural</h4>
+              <p>Juan Pedro</p>
+              <img src="./assets/img/estrellas.png">
+              <p class="precio">$200 <span class="u-pull-right ">$15</span></p>
+              <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="12">Agregar Al
+                Carrito</a>
+            </div>
+          </div>
+          <!--.card-->
+        </div>
+      </div>
+      <!--.row-->
+  </main>
 
   <!-- Acerca de -->
   <section class="contenedor2" id="sec2">

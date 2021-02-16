@@ -322,7 +322,7 @@ body .encabezados .input::placeholder {
   body footer .social-media {
     padding: 15px 0;
   }
-  body footer .social-media .container a {
+  body footer .social-media .contenedor a {
     font-size: 22px;
     margin: 0 10px;
   }

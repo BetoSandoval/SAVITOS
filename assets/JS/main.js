@@ -1,5 +1,5 @@
 // Variables
-const carrito = document.querySelector("#carrito"),
+const carrito = document.querySelector("#carrito-menu"),
   contenedorCarrito = document.querySelector("#lista-carrito tbody"), // Genara cdodigo html o elimina (tabla de submenu)
   vaciarCarritoBtn = document.querySelector("#vaciar-carrito"),
   listaCursos = document.querySelector("#lista-cursos");

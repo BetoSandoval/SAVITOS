@@ -270,7 +270,7 @@ body .encabezados .input::placeholder {
     margin-left: -25%;
   }
   body .header-container .nav .nav__carrito #carrito-menu {
-    right: 5%;
+    right: -3%;
     margin-top: 0;
   }
   body .header-container .nav .nav__carrito #carrito-menu .carrito-menu__lista .lista-contenedor .lista-contenedor__fila .lista-contenedor__fila--celda {
